@@ -27,6 +27,15 @@ font-family: var(--secondary-font);
     color: var(--highlight-color); 
 }
 
+/* Navbart */
+
+ #navbar {
+    background-color: var(--primary-color);
+ }
+ 
+ #navbar .logo  {
+    width: 30px;
+ }
 /* grid visualisation CSS for testing */
 
 .container,
