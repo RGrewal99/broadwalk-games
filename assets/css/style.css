@@ -132,6 +132,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -142,24 +144,14 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media Queries */
 
-/* Extra small devices (phones, less than 576px) */
-@media screen and (max-width: 320px) {
-    #table {
-        max-width: 320px;
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
     }
 }
 
@@ -191,6 +183,6 @@ h2 {
 @media screen and (min-width: 1400px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
-        min-height: 195;
+        min-height: 195px;
     }
 }
