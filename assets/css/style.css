@@ -156,6 +156,13 @@ h2 {
 
 /* Media Queries */
 
+/* Extra small devices (phones, less than 576px) */
+@media screen and (max-width: 320px) {
+    #table {
+        max-width: 320px;
+    }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
