@@ -44,13 +44,16 @@
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="booking.html" class="btn btn-primary ms-lg-3">Book now</a>
+                        <a href="booking.html" class="btn custom-button-filled ms-lg-3"aria-current="page">Book now</a>
                     </li>
                 </ul>
             </div>
@@ -194,46 +197,82 @@
                         Outside scheduled events, our shop remains open for regular play. Join us anytime to discover new games and meet fellow enthusiasts.
                     </p>
                 </div>
-                <div class="col-md-6 text-end">
-                    <p>Additional content for the right side goes here.</p>
+                <div class="col-12 col-md-6 text-end">
+                    <table class="table table-hover text-end col-12">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-start">Event</th>
+                                <th scope="col" class="text-start">Date</th>
+                                <th scope="col" class="text-start">Time</th>
+                                <th scope="col" class="text-start">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-nowrap">
+                                <th scope="row">Dungeons & Dragons</th>
+                                <td class="text-start">Tuesdays</td>
+                                <td class="text-start">8pm - 11pm</td>
+                                <td>€25 for 6 sessions</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Retro Game Night</th>
+                                <td class="text-start">Thursdays</td>
+                                <td class="text-start">8pm - 11pm</td>
+                                <td class="text-start">€5 per person*</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Tournaments</th>
+                                <td class="text-start">Last Sunday of the month</td>
+                                <td class="text-start">12pm - 7pm</td>
+                                <td class="text-start">€10 per person</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="text-center">  
+                    <p id="student-discount" class="d-inline-block px-3 py-2" id="student-discount"><strong>*Get 20% off with valid student ID</strong></p>
+                    </div>
+
+                </div>
+
+                <div class="col-12 text-center">
+                    <a href="booking.html" class="btn custom-button-outline mb-4">Book now</a>
                 </div>
             </div>
         </section>
+          
     </main>
 
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
-        <div class="container">
+        <div class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <h2 class="display-6">Contact us!</h2>
                 </div>
                 <!-- Contact info -->
                 <div class="col-12 col-md-6 col-xl-4">
-                    <h3 class="sub-heading-color">Conctact info</h3>
+                    <h3 class="sub-heading-color">Contact info</h3>
                     <address>
-                        <strong><i class="fa-solid fa-location-dot"></i>Boardwalk Games</strong><br>
-                    123 Boardwalk<br>
-                    Boardwalk City, 12345
+                        <strong><i class="fa-solid fa-location-dot"></i> Boardwalk Games</strong><br>
+                        123 Boardwalk<br>
+                        Boardwalk City, 12345
                     </address>
-                    <p><i class="fa-solid fa-phone"></i>012 345 6789<br>
-                    <i class="fa-regular fa-paper-plane"></i>info@boardwalk-games.co</p>
+                    <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
+                        <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
+                    </p>
                     <div class="social-links my-4">
-                        <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-
-                        <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                            <i class="fa-brands fa-square-facebook"></i>
-                        </a>
-
-                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed page (opens in a new tab)" rel="noopener"><i
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
-
                 </div>
+
                 <!-- Opening times -->
                 <div class="col-12 col-md-6 col-xl-4">
                     <h3 class="sub-heading-color">Opening times</h3>
@@ -258,7 +297,7 @@
                             <tr>
                                 <th scope="row">Fri - Sat</th>
                                 <td>11am</td>
-                                <td>11pm</td>
+                                <td>12am</td>
                             </tr>
                             <tr>
                                 <th scope="row">Sun</th>
